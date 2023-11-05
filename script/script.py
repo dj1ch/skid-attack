@@ -1,8 +1,16 @@
 import time
+import sys
+import ddos
+#import access
+#import password
+
+# variables
+line = "\n--------------------------------------------------------------------"
 
 def loading_animation():
+    print("You must run this script with admin priveleges on your own system for this to work. Exit the script with Control-C")
     for i in range(1, 6):
-        print(f"Loading{'.' * i}", end='\r')
+        print(f"\nLoading{'.' * i}", end='\r')
         time.sleep(1)
     print("Loading complete!")
 
@@ -17,19 +25,18 @@ def read_file(file_path):
         print(f"An error occurred: {e}")
 
 def menu():
-    line = "\n--------------------------------------------------------------------"
     print("\nTools")
     print("1. DDOS")
     print("2. Remote Access to computer")
     print("3. Password stealer")
-    user_input = input("Choose option (use a number): ")
 
+def attack():
+    user_input = input("Choose option (use a number): ")
     if user_input == "1":
         print(line)
         print("\nLaunching DDOS attack!")
-        for i in range(1, 4):
-            print(f"Starting attack{'.' * i}", end='\r')
-            time.sleep(1)
+        ddos.setup()
+        ddos.start()
         print(" " * 20)
         print("Attack finished!")
         print(line)
@@ -55,9 +62,11 @@ def menu():
         print(line)
 
     else:
-        print("Invalid option. Please choose a valid option.")
+        print("Invalid option, choose a number. EXITTING!")
+        sys.exit()
 
 # Executing
 loading_animation()
 read_file("mainmenu.txt")
 menu()
+attack()
