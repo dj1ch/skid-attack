@@ -9,3 +9,5 @@ It will act as a python script to be ran. If they run it, the menu will have man
 
 ### Note
 DO NOT RUN THIS SCRIPT ON YOUR OWN SYSTEM!!!! FOR THE SAKE OF YOUR OWN FILES AMONG OTHER THINGS, DO NOT RUN THE SCRIPT!!!! IT WILL DELETE AND BRICK YOUR COMPUTER'S OPERATING SYSTEM!!!
+
+I am not responsible for any of the damage caused by this. 

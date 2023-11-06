@@ -8,7 +8,6 @@ import password
 line = "\n--------------------------------------------------------------------"
 
 def loading_animation():
-    print("You must run this script with admin priveleges on your own system for this to work. Exit the script with Control-C")
     for i in range(1, 6):
         print(f"\nLoading{'.' * i}", end='\r')
         time.sleep(1)
