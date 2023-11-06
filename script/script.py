@@ -37,6 +37,7 @@ def attack():
         print("\nLaunching DDOS attack!")
         ddos.setup()
         ddos.start()
+        ddos.attack()
         print(" " * 20)
         print("Attack finished!")
         print(line)
