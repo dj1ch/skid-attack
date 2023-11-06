@@ -1,9 +1,4 @@
 import os
-import platform
-
-def setup():
-    print("\nStarting the DDOS attack")
-    operating_system = platform.system()
 
 def start():
     address = input("IP address to attack: ")

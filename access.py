@@ -1,9 +1,4 @@
 import os
-import platform
-
-def setup():
-    print("\nAttempting remote access now")
-    operating_system = platform.system()
 
 def start():
     name = input("Username of victim: ")

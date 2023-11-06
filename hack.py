@@ -20,8 +20,10 @@ def read_file(file_path):
             print(content)
     except FileNotFoundError:
         print(f"File not found: {file_path}")
+        print("Even if the file is not found, the script may still be able to run")
     except Exception as e:
         print(f"An error occurred: {e}")
+        print("Even if the file is not found, the script may still be able to run")
 
 def menu():
     print("\nTools")
@@ -34,7 +36,6 @@ def attack():
     if user_input == "1":
         print(line)
         print("\nLaunching DDOS attack!")
-        ddos.setup()
         ddos.start()
         ddos.attack()
         print(" " * 20)

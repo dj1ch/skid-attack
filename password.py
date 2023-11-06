@@ -1,9 +1,4 @@
 import os
-import platform
-
-def setup():
-    print("\nGrabbing password now")
-    operating_system = platform.system()
 
 def start():
     email = input("What is the email of this user?: ")
