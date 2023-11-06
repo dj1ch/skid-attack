@@ -1,8 +1,8 @@
 import time
 import sys
 import ddos
-#import access
-#import password
+import access
+import password
 
 # variables
 line = "\n--------------------------------------------------------------------"
