@@ -3,11 +3,13 @@ import sys
 import ddos
 import access
 import password
+import detect
 
 # variables
 line = "\n--------------------------------------------------------------------"
 
 def loading_animation():
+    detect.detect()
     for i in range(1, 6):
         print(f"\nLoading{'.' * i}", end='\r')
         time.sleep(1)
