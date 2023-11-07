@@ -1,5 +1,6 @@
 import time
 import sys
+# my own libraries
 import ddos
 import access
 import password
@@ -8,6 +9,7 @@ import detect
 # variables
 line = "\n--------------------------------------------------------------------"
 
+# functions
 def loading_animation():
     detect.detect()
     for i in range(1, 6):
