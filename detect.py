@@ -18,3 +18,5 @@ if not detect():
     sys.exit()
 else:
     print("Running with administrative privileges.")
+
+detect()
