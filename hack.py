@@ -30,10 +30,10 @@ def read_file(file_path):
         print("Even if the file is not found, the script may still be able to run")
 
 def menu():
-    print("\nTools")
-    print("1. DDOS")
-    print("2. Remote Access to computer")
-    print("3. Password stealer")
+    print("\033[1m\nTools\033[0m")
+    print("\033[1m[1.] DDOS\033[0m")
+    print("\033[1m[2.] Remote Access to computer\033[0m")
+    print("\033[1m[3.] Password stealer\033[0m")
 
 def attack():
     user_input = input("Choose option (use a number): ")
