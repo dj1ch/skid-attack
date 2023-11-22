@@ -1,5 +1,5 @@
 # Skid Attack
-The fake hacking script that will make them regret their decisions
+The fake hacking script that will make a skid regret their decisions
 #
 ### Intro to the concept
 Hi, I'm [@dj1ch](https://github.com/dj1ch), the main devloper of this script. I am, at the writing of this script, 14 years of age. Especially in this time, hacking has become a buzzword to a lot of people. It is commonly seen in pop culture and seen as something more negative than positive. A common reason for this is kids. And by kids, I mean kids. The ones that will harass you and will attempt to 'DDOS' you and 'Grab your IP'. This script here pretends to be one of the tools that they might use, being somewhat skid friendly.
