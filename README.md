@@ -10,4 +10,4 @@ It will act as a python script to be ran. If they run it, the menu will have man
 ### Note
 DO NOT RUN THIS SCRIPT ON YOUR OWN SYSTEM!!!! FOR THE SAKE OF YOUR OWN FILES AMONG OTHER THINGS, DO NOT RUN THE SCRIPT!!!! IT WILL DELETE AND BRICK YOUR COMPUTER'S OPERATING SYSTEM, EVEN REMOVING THE BOOT ENTRY DEPENDING ON THE OS!!!
 
-I am not responsible for any of the damage caused by this. 
+I am not responsible for any of the damage caused by this, and I am not going to help you recover any device data, even if you beg to me. No exceptions.
